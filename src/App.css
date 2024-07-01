@@ -13,6 +13,24 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+.headerMainWrapper {
+  width: 100%;
+  border: 1px solid #eee;
+  padding: 20px;
+  box-shadow: 6px 6px 7px #eee;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +53,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.innerWrapper {
+  width: 100%;
+  height: calc(100vh - 61px);
+  display: flex;
+}
+
+.sidebar {
+  border-right: 1px solid #eee;
+  padding: 20px;
+}
+
+.userBox {
+  padding: 20px;
 }
